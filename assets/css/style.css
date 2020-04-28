@@ -5,3 +5,42 @@
 
 .title-container {
 }
+
+.sticky-social {
+    position: fixed;
+    top: 30%;
+    left: -40px;
+    padding: 0px;
+    margin: 0px;
+}
+.social {
+    list-style: none;
+}
+.social li {
+    padding: 10px 10px;
+    font-size: 25px;
+    transition: margin 0.4s ease-in;
+}
+.social li:hover {
+    margin-right: -30px;
+    /* box-shadow: 2px 5px 10px grey; */
+}
+.social li:hover .fa {
+    margin-left: 20px;
+}
+.fa {
+    color: #fff;
+    transition: margin 0.4s ease-in;
+}
+.github {
+    background-color: #242424;
+}
+.linkedin {
+    background-color: #0077b7;
+}
+.envelope {
+    background-color: #e4c334;
+}
+.phone {
+    background-color: #cb2128;
+}
