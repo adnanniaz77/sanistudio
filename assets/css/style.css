@@ -44,3 +44,15 @@
 .phone {
     background-color: #cb2128;
 }
+
+.call {
+    border: solid 1px green;
+}
+
+.hidden-input {
+    /* display: none; */
+}
+
+.hidden-input {
+    content: "415 802 8751";
+}
