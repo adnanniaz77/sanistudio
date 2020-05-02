@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+    background-color: #343a40;
+}
+
+::-webkit-scrollbar-button {
+    border: solid 1px #fed136;
+    display: none;
+}
+
+::-webkit-scrollbar-button:active,
+::-webkit-scrollbar-button:hover {
+    transition: background-color ease 0.3s;
+    background-color: rgba(254, 209, 54, 0.5);
+}
+
+::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #fed136, #d48c5a);
+}
