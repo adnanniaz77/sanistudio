@@ -57,7 +57,7 @@
             </div>
         </div>
     </header>
-    <div class="sticky-social">
+    <!-- <div class="sticky-social">
         <ul class="social">
             <li class="github"><a href="https://github.com/adnanniaz77"><i class="fa fa-github"
                         aria-hidden="true"></i></a></li>
@@ -65,11 +65,8 @@
                         aria-hidden="true"></i></a></li>
             <li class="envelope"><a href="mailto:adnanniaz77@yahoo.com"><i class="fa fa-envelope"
                         aria-hidden="true"></i></a></li>
-            <!-- <li class="phone"><a class="call" data-clipboard-target="#" href="#"><i class="fa fa-phone"
-                        data="415 802 8751" aria-hidden="true"></i></a></li> -->
         </ul>
-    </div>
-    </div>
+    </div> -->
     <section id="services">
         <div class="container">
             <div class="row">
@@ -375,7 +372,55 @@
             <div class="row">
                 <div class="col-lg-12">
                     <form id="contactForm" name="contactForm" novalidate="novalidate">
-                        <div class="form-row">
+                        <div class="bg-dark row text-center">
+                            <div class="col-md-6 mb-5 contact-items">
+                                <div class="tooltips">
+                                    <a class="contact-icon">
+                                        <i class="fa fa-envelope" onclick="copyText('#email')"></i>
+                                        <span id="email" class="contact-hidden-content">adnanniaz77@yahoo.com</span>
+                                    </a>
+                                    <div class="tooltiptext">
+                                        click to copy Email
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5 contact-items">
+                                <div class="tooltips">
+                                    <a class="contact-icon">
+                                        <i class="fa fa-phone" onclick="copyText('#phone')"></i>
+                                        <span id="phone" class="contact-hidden-content">+1 415 802 8751</span>
+                                    </a>
+                                    <div class="tooltiptext">
+                                        click to copy phone number
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5 contact-items">
+                                <div class="tooltips">
+                                    <a class="contact-icon" href="https://github.com/adnanniaz77">
+                                        <i class="fa fa-github"></i>
+                                        <span class="contact-hidden-content">https://github.com/adnanniaz77</span>
+                                    </a>
+                                    <div class="tooltiptext">
+                                        click to visit
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5 contact-items">
+                                <div class="tooltips">
+                                    <a class="contact-icon" href="https://www.linkedin.com/in/adnan-niaz-3aa24838/">
+                                        <i class="fa fa-linkedin"></i>
+                                        <span
+                                            class="contact-hidden-content">https://www.linkedin.com/in/adnan-niaz-3aa24838/</span>
+                                    </a>
+                                    <div class="tooltiptext">
+                                        click to visit
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="form-row">
                             <div class="col col-md-6">
                                 <div class="form-group"><input class="form-control" type="text" id="name"
                                         placeholder="Your Name *" required=""><small
@@ -400,34 +445,7 @@
                                     id="sendMessageButton" type="submit">Send Message</button>
                             </div>
                         </div>
-                        <!-- <div class="contact_area bg-dark"
-                            style="font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif; color: #d1a50a;">
-                            <div class="title-container row">
-                                <span class="t-heading font-weight-bold col-4">Primary Email:</span>
-                                <span class="t-data col-8">adnanniaz77@yahoo.com</span>
-                                <span class="t-heading font-weight-bold col-4">Secondary Email:</span>
-                                <span class="t-data col-8">adnan.niaz71@gmail.com</span>
-                            </div>
-                        </div> -->
-                        <!-- <div class="contact_area bg-dark"
-                            style="font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif; color: #d1a50a;">
-                          <div class="title-container row">
-                                <span class="t-heading font-weight-bold col-4">Phone:</span>
-                                <span class="t-data col-8">1 (415) 802 8751</span>
-                            </div> 
-                        </div>
-                        <div class="contact_area bg-dark"
-                            style="font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif; color: #d1a50a;">
-                            <div class="title-container row">
-                                <span class="t-heading font-weight-bold col-4">Address:</span>
-                                <span class="t-data col-8">400 CLEMENTINA ST, 527</span>
-                                <span class="t-heading font-weight-bold col-4">&nbsp;</span>
-                                <span class="t-data col-8"></span>
-                                <span class="t-heading font-weight-bold col-4">&nbsp;</span>
-                                <span class="t-data col-8">SAN FRANCISCO, CA 94103</span>
-                            </div>
-                        </div> -->
-                    </form>
+                    </form> -->
                 </div>
 
             </div>
@@ -437,17 +455,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4"><span class="copyright">Copyright&nbsp;© Sani Studio 2020</span></div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item"><a href="https://github.com/adnanniaz77"><i
-                                    class="fa fa-github"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/adnan-niaz-3aa24838/"><i
-                                    class="fa fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="mailto:adnanniaz77@yahoo.com"><i
-                                    class="fa fa-envelope"></i></a></li>
-                        <!-- <li class="list-inline-item"><a class="call" href="#"><i class="fa fa-phone"></i></a></li> -->
-                    </ul>
-                </div>
             </div>
         </div>
     </footer>
@@ -662,6 +669,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/agency.js"></script>
     <script src="assets/js/app.js"></script>
+    <script>
+        function copyText(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+
+            $temp.remove();
+        }
+    </script>
 </body>
 
 </html>

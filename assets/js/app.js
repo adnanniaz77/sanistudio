@@ -1,9 +1,10 @@
 // $(document).ready(function () {
-//     console.log("hi");
+//     function copyText(selector) {
+//         let temp = $("<input>");
 
-//     // $(".call").on("click", function (e) {
-//     //     let copiedWord = $(".fa-phone")[0].attributes.data.value;
-//     //     copiedWord.select();
-//     //     document.execCommand("copy");
-//     // });
+//         temp.val($(selector.text()).select());
+//         document.execCommand("copy");
+
+//         temp.remove();
+//     }
 // });
