@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .contact_area {
     width: 100%;
     padding: 20px;
@@ -11,11 +18,15 @@
     left: -40px;
     padding: 0px;
     margin: 0px;
+    -webkit-transition: opacity ease 0.3s;
+    -o-transition: opacity ease 0.3s;
     transition: opacity ease 0.3s;
 }
 
 .sticky-social:hover {
     opacity: 1;
+    -webkit-transition: opacity ease 0.3s;
+    -o-transition: opacity ease 0.3s;
     transition: opacity ease 0.3s;
 }
 
@@ -25,6 +36,8 @@
 .social li {
     padding: 10px 10px;
     font-size: 25px;
+    -webkit-transition: margin 0.4s ease-in;
+    -o-transition: margin 0.4s ease-in;
     transition: margin 0.4s ease-in;
 }
 .social li:hover {
@@ -36,6 +49,8 @@
 }
 .fa {
     color: #fff;
+    -webkit-transition: margin 0.4s ease-in;
+    -o-transition: margin 0.4s ease-in;
     transition: margin 0.4s ease-in;
 }
 .github {
@@ -71,6 +86,8 @@
     visibility: hidden;
     opacity: 0;
     width: 160px;
+    -webkit-transition: visibility ease 0.3s;
+    -o-transition: visibility ease 0.3s;
     transition: visibility ease 0.3s;
     background-color: black;
     color: #fff;
@@ -99,6 +116,8 @@
 .tooltips:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+    -webkit-transition: opacity ease 0.6s;
+    -o-transition: opacity ease 0.6s;
     transition: opacity ease 0.6s;
 }
 
@@ -109,14 +128,22 @@
     color: #e4c334;
     left: 0;
     font-size: 1rem;
+    -webkit-transition: all ease 1s;
+    -o-transition: all ease 1s;
     transition: all ease 1s;
     opacity: 0.7;
     overflow: hidden;
+    -webkit-transform: translate(0, 30px);
+    -ms-transform: translate(0, 30px);
     transform: translate(0, 30px);
 }
 
 #contactForm .fa:hover + .contact-hidden-content {
+    -webkit-transform: translate(0, 5px);
+    -ms-transform: translate(0, 5px);
     transform: translate(0, 5px);
+    -webkit-transition: all ease 1s;
+    -o-transition: all ease 1s;
     transition: all ease 1s;
     visibility: visible;
     opacity: 1;
